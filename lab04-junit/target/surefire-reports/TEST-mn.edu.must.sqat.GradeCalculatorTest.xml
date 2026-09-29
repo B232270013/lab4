@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="mn.edu.must.sqat.GradeCalculatorTest" time="0.22" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="mn.edu.must.sqat.GradeCalculatorTest" time="0.615" tests="28" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire/surefirebooter-20260929203011258_3.jar /mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire 2026-09-29T20-30-08_659-jvmRun1 surefire-20260929203011258_1tmp surefire_0-20260929203011258_2tmp"/>
+    <property name="sun.java.command" value="/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire/surefirebooter-20260929204258910_3.jar /mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire 2026-09-29T20-42-58_673-jvmRun1 surefire-20260929204258910_1tmp surefire_0-20260929204258910_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/test-classes:/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/classes:/home/shagai/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/shagai/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/shagai/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/shagai/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/shagai/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/shagai/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/shagai/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/shagai/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire/surefirebooter-20260929203011258_3.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/MUST/26-27A/F.CSA313/lab4/lab04-junit/target/surefire/surefirebooter-20260929204258910_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.20.1+1-1-22.04-Ubuntu"/>
     <property name="user.name" value="shagai"/>
@@ -51,20 +51,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="ninetyIsExactlyA" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.059"/>
+  <testcase name="ninetyIsExactlyA" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.092"/>
   <testcase name="hundredShouldBeA" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="score89Point99ShouldBeB" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="score30ShouldBeF" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="score75ShouldBeC" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="negativeScoreShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.005"/>
-  <testcase name="zeroShouldBeF" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
-  <testcase name="labOverMaximumShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
-  <testcase name="score95ShouldBeA" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="score89Point99ShouldBeB" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.004"/>
+  <testcase name="score30ShouldBeF" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
+  <testcase name="score75ShouldBeC" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.003"/>
+  <testcase name="negativeScoreShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.01"/>
+  <testcase name="zeroShouldBeF" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="labOverMaximumShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="score95ShouldBeA" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
+  <testcase name="letterGradeBoundaries(double, String)[1]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.075"/>
+  <testcase name="letterGradeBoundaries(double, String)[2]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="letterGradeBoundaries(double, String)[3]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="letterGradeBoundaries(double, String)[4]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
+  <testcase name="letterGradeBoundaries(double, String)[5]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="letterGradeBoundaries(double, String)[6]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="letterGradeBoundaries(double, String)[7]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="letterGradeBoundaries(double, String)[8]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
   <testcase name="scoreOver100ShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="totalScoreShouldBe100" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
-  <testcase name="score65ShouldBeD" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="totalScoreParameterized(double, double, double, double, double, double)[1]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
+  <testcase name="totalScoreParameterized(double, double, double, double, double, double)[2]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="totalScoreParameterized(double, double, double, double, double, double)[3]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="totalScoreParameterized(double, double, double, double, double, double)[4]" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.002"/>
+  <testcase name="totalScoreShouldBe100" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
+  <testcase name="score65ShouldBeD" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
   <testcase name="score59Point99ShouldBeF" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
   <testcase name="score85ShouldBeB" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
-  <testcase name="negativeAttendanceShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.0"/>
+  <testcase name="negativeAttendanceShouldThrowException" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
   <testcase name="score60ShouldBeD" classname="mn.edu.must.sqat.GradeCalculatorTest" time="0.001"/>
 </testsuite>
